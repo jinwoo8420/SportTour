@@ -1,0 +1,13 @@
+HEX:   #001841
+RGB:   rgb(0,24,65)
+
+
+HEX:   #ff6363
+RGB:   rgb(255,99,99)
+
+HEX:   #dbdbdb
+RGB:   rgb(219,219,219)
+
+
+HEX:   #0f264c
+RGB:   rgb(15,38,76)

@@ -1,0 +1,51 @@
+#football_img {
+  transition-duration: 1s;
+  width: 100px;
+  height: 100px;
+}
+
+#baseball_img {
+  transition-duration: 1s;
+  width: 100px;
+  height: 100px;
+}
+
+#volleyball_img {
+  transition-duration: 1s;
+  width: 100px;
+  height: 100px;
+}
+
+#football:hover + #football_img {
+  visibility: visible;
+  transform: translateX(960px) translate(960px) rotate(200deg);
+}
+
+#baseball:hover + #baseball_img {
+  visibility: visible;
+  transform: translateX(960px) translate(960px) rotate(200deg);
+}
+
+@keyframes volleyball_img {
+  from {
+  }
+
+  23% {
+    transform: translate(600px, -350px) rotate(200deg);
+    animation-timing-function: ease-out;
+  }
+
+  to {
+    transform: translate(1000px, 550px) rotate(200deg);
+    animation-timing-function: ease-in;
+  }
+}
+
+#volleyball:hover + #volleyball_img {
+  visibility: visible;
+  animation-name: volleyball_img;
+  animation-duration: 0.8s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
