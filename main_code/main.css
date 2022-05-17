@@ -13,10 +13,10 @@ footer {
   bottom: 0;
   margin: 0;
   width: 100%;
-  height: 50px;
   background-color: #dbdbdb;
   text-align: center;
-  line-height: 50px;
+  padding: 2em;
+  font-size: 10px;
 }
 
 .main_button {
@@ -32,6 +32,7 @@ footer {
   border: 1px solid #0f264c;
   color: #031a43;
   font-size: 25px;
+  border-radius: 30px;
 }
 
 #button_text {
