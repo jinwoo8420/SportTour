@@ -44,7 +44,7 @@
 #volleyball:hover + #volleyball_img {
   visibility: visible;
   animation-name: volleyball_img;
-  animation-duration: 0.8s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-direction: normal;
   animation-fill-mode: forwards;
