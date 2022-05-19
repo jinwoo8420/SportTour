@@ -26,8 +26,8 @@ footer {
 .main_button button {
   position: absolute;
   bottom: 150px;
-  width: 200px;
-  height: 100px;
+  width: 230px;
+  height: 130px;
   background-color: white;
   border: 3px solid #0f264c;
   color: #031a43;
@@ -48,15 +48,15 @@ footer {
 }
 
 #football {
-  left: 26%;
+  left: 24%;
 }
 
 #baseball {
-  left: 46%;
+  left: 44%;
 }
 
 #volleyball {
-  left: 66%;
+  left: 64%;
 }
 
 #football_img,

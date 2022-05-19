@@ -1,11 +1,11 @@
 #football_img {
-  transition-duration: 1s;
+  transition-duration: 0.7s;
   width: 120px;
   height: 120px;
 }
 
 #baseball_img {
-  transition-duration: 1s;
+  transition-duration: 0.7s;
   width: 100px;
   height: 100px;
 }
@@ -24,7 +24,8 @@
 
 #baseball:hover + #baseball_img {
   visibility: visible;
-  transform: translateX(960px) translate(960px) rotate(200deg);
+  /* transform: translateX(960px) translate(960px) rotate(200deg); */
+  transform: translate(2000px, -350px) rotate(200deg);
 }
 
 #volleyball:hover + #volleyball_img {
@@ -35,7 +36,7 @@
   animation-fill-mode: forwards;
   animation-duration: 1s; */
   transform: rotate(180deg);
-  transition: all 1s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 /* @keyframes volleyball_img {
